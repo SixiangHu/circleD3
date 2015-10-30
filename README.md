@@ -7,7 +7,7 @@ output: html_document
 
 This is a R package to plot d3 cuircle pack nested plot. This package is based on `htmlwidgets` package, hence can be used in `Shiny` app.
 
-It utilises `d3-tip` javascript library.
+It utilises `d3-tip` javascript library for tooltip.
 
 The original idea is from http://bl.ocks.org/billdwhite/7207695
 
@@ -61,4 +61,4 @@ To install the package from github
 devtools::install_github('SixiangHu/circleD3')
 ```
 
-Thanks for 
+Thanks `d3` and `htmlwidgets` for brilliant packages that this plot is built on.
