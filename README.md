@@ -5,11 +5,15 @@ date: "30 October 2015"
 output: html_document
 ---
 
-This is a R package to plot d3 cuircle pack nested plot. This package is based on `htmlwidgets` package, hence can be used in `Shiny` app.
+This is a R package that visulises dataset or models using `d3` javascript library.
+
+Currently, the following `d3` plots have been implemented, and more to add in:
+- Circle pack nested plot (`circleD3` function).  The original idea is from http://bl.ocks.org/billdwhite/7207695
+- Parsets plot (`parsetsD3` function).  The original idea is from https://www.jasondavies.com/parallel-sets/
+
+This package is based on `htmlwidgets` package, hence can be used in `Shiny` app.
 
 It utilises `d3-tip` javascript library for tooltip.
-
-The original idea is from http://bl.ocks.org/billdwhite/7207695
 
 ```{r}
 library(circleD3)
