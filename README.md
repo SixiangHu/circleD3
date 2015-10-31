@@ -57,6 +57,8 @@ data <- list(id =1,
 
 circleD3(data)
 
+parsetsD3(iris,list("Species","Sepal.Length","Sepal.Width"))
+
 ```
 
 To install the package from github

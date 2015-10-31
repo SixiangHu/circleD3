@@ -19,7 +19,7 @@ parsetsD3 <- function(data,dim, width = NULL, height = NULL) {
     x,
     width = width,
     height = height,
-    package = 'parsetsD3'
+    package = 'circleD3'
   )
 }
 
@@ -41,7 +41,7 @@ parsetsD3 <- function(data,dim, width = NULL, height = NULL) {
 #'
 #' @export
 parsetsD3Output <- function(outputId, width = '100%', height = '400px'){
-  shinyWidgetOutput(outputId, 'parsetsD3', width, height, package = 'parsetsD3')
+  shinyWidgetOutput(outputId, 'parsetsD3', width, height, package = 'circleD3')
 }
 
 #' @rdname parsetsD3-shiny
